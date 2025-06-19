@@ -1,0 +1,13 @@
+Step 1: Understand Recursive Algorithms
+Recursion is a technique where a method calls itself. It’s useful for solving problems where a solution depends on solutions to smaller subproblems.
+
+
+Step 2 & 3: Recursive Growth Calculation.
+
+
+Step 4: Analysis
+Time Complexity (Recursive): O(n) – One call per year
+
+Space Complexity (Recursive): O(n) – Due to call stack
+
+Optimization: Use iteration or memoization to avoid stack overflow and redundant calculations.

@@ -1,0 +1,30 @@
+Step 1: Understand Asymptotic Notation
+Big O Notation is used to describe the performance (time or space) of an algorithm as the input size grows.
+
+Linear Search:
+
+Best case: O(1) – target is the first element
+
+Average case: O(n)
+
+Worst case: O(n) – target is the last or not present
+
+Binary Search:
+
+Best case: O(1) – target is the middle element
+
+Average/Worst case: O(log n) – array must be sorted
+
+
+Step 2: Product Class
+
+
+Step 3: Search Implementation
+
+
+Step 4: Analysis
+Linear Search: Simpler, does not require sorting, but slower (O(n))
+
+Binary Search: Faster (O(log n)) but requires sorted data
+
+Recommendation: Use Binary Search if data is static or sorted; otherwise, use Linear Search for small or unsorted datasets.
